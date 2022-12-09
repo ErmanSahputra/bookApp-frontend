@@ -1,70 +1,18 @@
-# Getting Started with Create React App
+# bookApp
+Aplikasi bookApp adalah aplikasi sederhana yang mengimplementasikan Create, Read, Update, Delete.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Environment
+1. Backend yang digunakan adalah Node Js (clone disini https://github.com/ErmanSahputra/bookApp-backend.git)
+2. Database yang digunakan adalah MySql
+3. Frontend yang digunakan adalah React Js
 
-## Available Scripts
+# Cara Running Aplikasi
+1. Import file sql ke MySql Workbench
+2. Untuk menjalankan sisi Backend, gunakan command npm start
+3. Untuk menjalankan sisi Frontend, gunakan command npm start di terminal yang berbeda dengan Backend
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Capture Tampilan
+![db](https://user-images.githubusercontent.com/22932040/206732247-df744786-1ffd-41f2-b4a7-65155d326a9b.png)
+![home-book](https://user-images.githubusercontent.com/22932040/206732276-7b772ee4-3dab-4e81-832e-ebe2d12b7b19.png)
+![form-add](https://user-images.githubusercontent.com/22932040/206732269-1b51533c-6782-4fe8-ac60-63f67f030fa9.png)
+![form-update](https://user-images.githubusercontent.com/22932040/206732262-2beb7dbc-af04-4f6e-9a2a-1fca23749418.png)
